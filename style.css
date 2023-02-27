@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.externalContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.matchInterface {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+.playerHealthBox {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#playerHealth {
+    position: absolute; 
+    background: blue; 
+    top: 0; 
+    right:0; 
+    bottom: 0; 
+    width: 100%;
+}
+
+#timer {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enemyHealthBox {
+    position: relative;
+    height: 30px;
+    width: 100%
+}
+
+#enemyHealth {
+    position: absolute;
+    background: blue;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left: 0
+}
+
+#displayText {
+    position: absolute;
+    color: white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
